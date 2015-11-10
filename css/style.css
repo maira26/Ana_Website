@@ -1,0 +1,92 @@
+.container-fluid {
+  margin-top: 60px;
+}
+  .center-block {
+    width: absolute;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  body {
+    background-color: black;
+  }
+
+  @font-face {
+    font-family: AngelFace;
+    src: url(angelface.otf);
+  }
+
+  h1 {
+    color: white;
+    font-family: angelface;
+    font-size: 120px;
+    text-align: center;
+  }
+  .navbar-default {
+    background-color: rgb(153, 51, 102);
+    border: 0;
+  }
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+  .nav.navbar-nav li a {
+    color: white;
+  }
+
+  .carousel-inner img {
+    margin: auto;
+    margin-bottom: 100px;
+  }
+
+  #aboutme {
+    text-align: justify;
+    color: white;
+    margin-right: 160px;
+    margin-left: 160px;
+    margin-bottom: 100px;
+  }
+
+  .image {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 100px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);  
+    position: relative;
+  }
+
+
+  h2 { 
+    position: absolute; 
+    top: 200px; 
+    left: 0; 
+    width: 100%; 
+  }
+
+  h2 span { 
+    color: white; 
+    font: bold 24px/45px Helvetica, Sans-Serif; 
+    letter-spacing: -1px;  
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px; 
+  }
+
+  h2 span.spacer {
+    padding:0 5px;
+  }
+
+  .contact {
+    background-color: rgb(153, 51, 102);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 60px;
+
+  }
